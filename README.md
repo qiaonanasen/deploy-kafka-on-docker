@@ -65,7 +65,7 @@ docker images
 Docker rmi imagename
 * 启动容器
 Sudo docker run -d -p 80:80 imagename 
-# -d(detach)表示在后台执行, -p 80:80表示要使用的端口
+（-d(detach)表示在后台执行, -p 80:80表示要使用的端口）
 * 查看正在运行的container
 docker ps
 * 查看运行的container使用的资源
